@@ -24,8 +24,14 @@ Integrei um microfone para reconhecimento de fala durante o processo de "login" 
 * 1x DHT22
 * 2x Potenciômetro
 * 2x Microfone
+
+![Projeto no Wokwi](https://github.com/silviakavabata/edge-totem-checksaude/assets/104228075/15504963-d428-401d-9add-a447c8bffc7d)
+
 #### Funcionamento
 Utilizei o sensor DHT22 para representar a utilização de um termômetro, que medirá se o paciente chegou no posto com hipotermia ou febre. Os dois potenciômetros representam medidores de pressão sistólica (pressão nos vasos, quando o coração se contrai) e diastólica (pressão nos vasos quando o coração relaxa). Ambas importantes para saber se o paciente está com hipertensão leve, moderada ou grave. Um microfone será utilizado para reconhecimento de fala ao realizar o "login" no totem, que também aproveitará para avaliar se a fala está embolada ou o usuário está com algum tipo de confusão mental. O outro microfone foi utilizado para representar a câmera, que tirará uma foto para o cadastro do paciente e aproveitará para verificar se ele está apresentando palidez cultânea ou com a pupila dilatada. Todas essas informações são enviadas para o tago, que mostra visualmente em um dashboard a situação do paciente, conforme imagem abaixo:
+
+![Dashboard no Tago](https://github.com/silviakavabata/edge-totem-checksaude/assets/104228075/1059e872-44d9-4eef-b60c-ff0ec70d8edb)
+
 
 ## Simulação
 [Clique aqui para visualizar](https://wokwi.com/projects/382153828426797057)
